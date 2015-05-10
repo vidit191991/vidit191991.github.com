@@ -1,8 +1,8 @@
 body {
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	background-color: #111111;
 	width: 100%;
-    font-size: 1em; 
+    font-size: 1em;
     line-height:1.2;
 	color: #FFFFFF
 }
@@ -20,6 +20,7 @@ h2 {
 td {
 	vertical-align: top;
 }
+
 
 A:link {
 text-decoration: none;
@@ -42,7 +43,7 @@ color: #AAAAAA;
 	top: 19%;
 	left: 20%;
 	width: 40%;
-}	
+}
 
 #title
 {
@@ -66,7 +67,7 @@ color: #AAAAAA;
 	max-height: 300px;
 
 }
-	  
+
 #navbar
 {
 	margin-top: 5%;
@@ -78,5 +79,6 @@ color: #AAAAAA;
 }
 
 .navbar-col{
-	width: 50%
+	width: 20%
+
 }

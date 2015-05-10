@@ -1,8 +1,8 @@
 body {
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	background-color: #111111;
 	width: 100%;
-    font-size: 1em; 
+    font-size: 1em;
     line-height:1.2;
 	color: #FFFFFF
 }
@@ -42,7 +42,7 @@ color: #AAAAAA;
 	top: 25%;
 	left: 5%;
 	width: 90%;
-}	
+}
 
 #title
 {
@@ -70,5 +70,5 @@ color: #AAAAAA;
 }
 
 .navbar-col{
-	width: 50%
+	width: 30%
 }
