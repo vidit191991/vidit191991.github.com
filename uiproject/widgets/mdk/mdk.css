@@ -1,0 +1,57 @@
+#mdk_chooser{
+	width: 250px;
+	height: 500px;
+}
+#mdk_addr{
+	width: 210px;
+	height: 30px;
+}
+
+#mdk_modeButtons {
+	position: static;
+	width: 250px;
+}
+
+#mdk_locatemeimg{
+	width: 26px;
+	height: 26px;
+}
+
+#mdk_locatemebtn{
+	float: right;
+}
+
+#mdk_courseButtons {
+	position: static;
+	width: 250px;
+}
+
+#mdk_dirpanel {
+	position: static;
+	clear: both;
+	margin-top: 10px;
+	height: 500px;
+	width: 250px;
+}
+
+#mdk_timeButtons{
+	position: static;
+	width: 250px;
+}
+.mdk_modeIcon{
+	position: static;
+	height: 49px;
+}
+
+.mdk_header{
+	position: relative;
+	margin-top: 15px;
+}
+
+.mdk_courseBtn{
+	width: 33%;
+}
+
+.mdk_timeb{
+	width: 50%
+}

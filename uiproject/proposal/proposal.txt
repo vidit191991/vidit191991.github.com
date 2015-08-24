@@ -1,0 +1,7 @@
+
+Sounds good.  Since you're new to web dev, it's particularly critical for
+you to break the project up into phases so you get something working, then
+move on to the next phase.
+
+25/25
+

@@ -1,0 +1,23 @@
+
+Here are your A4 marks and related comments.  There is no straight-forward 
+way to calculate the final mark based on the interim marks.  Proposal is out of 25.
+Challenge, Interactive, Visual Please, Robust, and Useful are all out of 5.  The 
+first two are weighted double the others.  These five feed into the "Execution" mark.
+
+The proposal was optional.  
+
+WidgetId:	mdk
+Proposal:	25
+TechScore:	96%
+TechComments:	location services; google maps
+Challenge:	4
+Interactive:	4.5
+Visual Please:	4.5
+Robust:	4.5
+Useful:	5
+bwbAvg:	31
+bwbComments:	Find directions from an address to a course.  Good job!
+TA1Comments:	
+TA2Comments:	Not showing courses, which apparently breaks the app - it's looking for the building that the first class is scheduled at
+Execution:	97%
+Mark:	97.35%

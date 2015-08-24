@@ -1,0 +1,66 @@
+
+{
+	"baseHtml": [
+		"<h3>Student Directions</h3>",
+		"<div id='mdk_chooser'>",
+		"Enter your address:<div>",
+		"<button class='btn btn-xs btn-default' id='mdk_locatemebtn' type='button'><img id='mdk_locatemeimg' src='widgets/mdk/assets/locateme.png'/></button>",
+		"<input id='mdk_addr' type='text' name='mdk_addr'></div>",
+		"<div class='mdk_header' style='clear: both;'>Select the mode of travel:</div>",
+		"<div id='mdk_modeButtons' class='btn-group' data-toggle='buttons'>",
+		"<label id='mdk_driveB' class='btn btn-xs btn-default active'>",
+		"<input type='radio' name='options'>",
+		"<img src='widgets/mdk/assets/drive.png' class='mdk_modeIcon'/>",
+		"</label>",
+		"<label id='mdk_busB' class='btn btn-xs btn-default'>",
+		"<input type='radio' name='options'>",
+		"<img src='widgets/mdk/assets/bus.png' class='mdk_modeIcon'/>",
+		"</label>",
+		"<label id='mdk_walkB' class='btn btn-xs btn-default'>",
+		"<input type='radio' name='options'>",
+		"<img src='widgets/mdk/assets/walk.png' class='mdk_modeIcon'/>",
+		"</label>",
+		"<label id='mdk_bikeB' class='btn btn-xs btn-default'>",
+		"<input type='radio' name='options'>",
+		"<img src='widgets/mdk/assets/bike.png' class='mdk_modeIcon'/>",
+		"</label></div>",
+		"<div class='mdk_header'>Get directions for:</div>",
+		"<div id='mdk_timeButtons' class='btn-group' data-toggle='buttons'>",
+		"<label id='mdk_gthere' class='active btn btn-default mdk_timeb'>",
+		"<input type='radio' name='options'>",
+		"Going to school",
+		"</label>",
+		"<label id='mdk_gback' class='btn btn-default mdk_timeb'>",
+		"<input type='radio' name='options'>",
+		"Coming back",
+		"</label>",
+		"</div>",
+		"<div class='mdk_header'>Select the course:</div>",
+		"<div id='mdk_courseButtons' class='btn-group-xs' data-toggle='buttons'></div>",
+		"<div id='mdk_courseDets' class='mdk_header'></div>",
+		"<div id='mdk_dirpanel'></div>",
+		"</div>"
+		
+	],
+
+	"mdk_courseButton": [
+		"<label class='btn btn-default mdk_courseBtn'>",
+		"<input type='radio' name='options'>",
+		"<b><small>{{title}}<br>{{type}}</small></b>",
+		"</label>"
+	],
+	"mdk_activeCourseButton": [
+		"<label class='active btn btn-default mdk_courseBtn'>",
+		"<input type='radio' name='options'>",
+		"<b><small>{{title}}<br>{{type}}</small></b>",
+		"</label>"
+	],
+	"mdk_courseDetails": [
+		"<p>Course Details:<br/>",
+		"<small>{{title}} - {{desc}}<br/>",
+		"{{room}}: {{days}} - {{time}}</small></p>"
+	],
+
+	"error": "<p>Course not found.</p>"
+
+}
