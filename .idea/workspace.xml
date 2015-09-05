@@ -1,80 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af2fa70d-fd53-4d5d-a27c-d04a3ac839dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Simple-Line-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Simple-Line-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Simple-Line-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/Transcript.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/networking-icon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/testing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/user.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/website-design-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Simple-Line-Icons.dev.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Simple-Line-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/android-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/c++.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/css-3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/drifolio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/eclipse.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/github-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/html-5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/jasmine.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/java.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/javascript.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.jribbble-1.0.1.ugly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.nicescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/mysql.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/nodejs-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/php.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/preloader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/simple-line-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logos/ubuntu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/wow.min.js" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\list" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\mainsmall.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\android.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\css\1-col-portfolio.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\mainsmall.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\BMICalc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\ClickClack.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\DecToHex.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\FastMath.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\Hold_On.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\Rad2Deg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\Stopwatch.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\TemperatureConv.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mom_2\Documents\d7knight.github.com\projects\resources\TipCalc.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resume.docx" afterPath="$PROJECT_DIR$/resources/resume.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resume.pdf" afterPath="$PROJECT_DIR$/resources/resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="af2fa70d-fd53-4d5d-a27c-d04a3ac839dc" name="Default" comment="" />
     <ignored path="d7knight.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,7 +91,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -475,16 +402,16 @@
       <updated>1441230376760</updated>
       <workItem from="1441230377500" duration="2000" />
       <workItem from="1441459673387" duration="3900000" />
-      <workItem from="1441490916881" duration="53000" />
+      <workItem from="1441490916881" duration="343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3955000" />
+    <option name="totallyTimeSpent" value="4245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -496,7 +423,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
