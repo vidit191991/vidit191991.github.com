@@ -1,0 +1,544 @@
+*{	-webkit-transition: .7s ease-out;
+ 	-moz-transition: .7s ease-out;
+ 	-o-transition:  .7s ease-out;
+ 	transition: .7s ease-out;
+    list-style: none;
+}
+
+/*================================
+TYPOGRAPHY
+================================*/
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8em;
+}
+
+.bigicon {font-size: 3em;}
+h2{font-size: 42px;}
+h3{font-size: 28px;}
+h4{font-size: 18px; line-height: 1.4em;}
+
+p{
+    letter-spacing: 1px;
+    color: black;
+    font-weight: lighter;
+}
+
+
+/*================================
+DEFAULT STYLE & FORMATING
+================================*/
+ul{padding: 0;}
+
+a:hover{color: #c3c3c3; text-decoration: none;}
+
+#interests {text-align: center;}
+.col-md-4, .col-md-6{padding-bottom: 50px;}
+.col-md-3 {padding: 0;}
+
+.sectionhead{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+hr.separetor{
+    width: 80px;
+
+}
+
+
+.btn-default{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    margin: 50px 0;
+    color: #c3c3c3;
+    letter-spacing: 2px;
+}
+
+.btn-default:hover{
+    background: none;
+
+}
+
+.btnicon, .brandicon{
+    margin-right: 10px;
+}
+
+
+/*================================
+HERO AREA
+================================*/
+#hero{
+    color: #01060a;
+    text-align: center;
+
+    max-height: 880px;
+    overflow: hidden;
+
+}
+#hero-title{
+    font-size: 90px;
+    font-weight: bolder;
+    color: #01060a;
+    letter-spacing: -2px;
+    margin: -45px auto 10px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+
+}
+#hero-subtext{
+    font-size: 20px;
+
+}
+
+.herocontent{
+    padding-top: 100px;
+    width: 100%;
+    max-width: 900px;
+}
+.heroshot{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+/*================================
+CLIENTS SECTION
+================================*/
+#clients{
+    padding-top: 30px;
+}
+#clients h4{
+    text-transooteorm: uppercase;
+    padding-top: 10px;
+}
+
+#clients .col-md-4{
+    padding-bottom: 0;
+}
+
+#clients ul{float: right}
+
+#clients li{
+    display: inline;
+    margin-right: 35px;
+}
+
+#clients li:last-child{
+    margin-right: 0px;
+}
+
+
+/*================================
+ABOUT SECTION
+================================*/
+#about{padding-top: 100px;}
+
+.myapps{margin-top: 25px;}
+.myapps li{display: inline}
+.myapps li img{
+    width: 30px;
+}
+#about .myphoto {
+    display: block;
+    background-position: center center;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin-left: 20%;
+    margin-right: auto;
+    border-radius: 100%;
+    background-size: cover;
+    background-image: url("../img/user.jpg");
+
+}
+
+
+
+#interests .iconsize{
+    width: 100px;
+    height: 100px;
+}
+
+/*================================
+PORTFOLIO SECTION
+================================*/
+#challenges {
+
+    text-align: left;
+}
+
+#shotsByPlayerId li{
+    width: 31%;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+#shotsByPlayerId li:hover{
+    box-shadow: 1px 2px 25px rgba(160, 160, 160, 0.4);
+    -webkit-transition: .7s ease-out;
+ 	-moz-transition: .7s ease-out;
+ 	-o-transition:  .7s ease-out;
+ 	transition: .7s ease-out;
+}
+
+#shotsByPlayerId li img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#shotsByPlayerId img:hover{
+    opacity: .5;
+    overflow: hidden;
+}
+
+
+#shotsByPlayerId h3{
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: normal;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+#shotsByPlayerId h3 a{color: #363942;}
+
+.likecount a{float: left; color: #c3c3c3;}
+.commentcount a{float: right; color: #c3c3c3;}
+
+/*================================
+TESTIMONIAL SECTION
+================================*/
+
+.clientsphoto img{
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.clientsphoto img:hover{
+    border-radius: 15%;
+}
+
+blockquote{
+    margin: 0;
+    padding: 0 0 10px 0;
+    border: none;
+}
+
+blockquote p{   
+    font-style: italic;
+    font-size: 14px;
+}
+
+.quote{overflow: hidden}
+.quote h5{margin-bottom: 5px;}
+
+
+/*================================
+FOOTER SECTION
+================================*/
+
+footer{
+    text-align: center;
+
+}
+
+
+.footerlinks{margin: 30px 0;}
+.footerlinks li{
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.footersocial {margin-top: 30px;}
+
+.footersocial li{
+    display:inline;
+    padding: 0 15px;
+    font-size: 2em;
+}
+
+
+
+/*================================
+FOLLOW BUTTON
+================================*/
+.dribbble-follow-button {
+	display: inline-block;
+    margin-top: 15px;
+}
+
+.dribbble-follow-button .label, .dribbble-follow-button .count {
+    font: bold 11px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+}
+
+.dribbble-follow-button .label {
+    padding: 0 3px 0 1px;
+    white-space: nowrap;
+    background: #e3e3e3;
+    background: linear-gradient(top, white, #dedede);
+}
+
+.dribbble-follow-button .label i {
+    height: 18px;
+    width: 18px;
+    float: left;
+    background: url(../img/icon.png) no-repeat top left;
+}
+
+.dribbble-follow-button .label:hover {
+    border-color: #bbb;
+    background: #fff;
+    color: #333;
+}
+
+
+.dribbble-follow-button .count {
+    margin-left: 5px;
+    padding: 0 3px;
+    color: #333;
+    border-color: #bbb;
+    font-weight: normal;
+    background: white;
+}
+
+.dribbble-follow-button .count:hover {
+    text-decoration: underline;
+}
+
+.dribbble-follow-button .count > * {
+	top: 50%;
+	left: 0;
+	margin: -4px 0 0 -4px;
+	border: 4px solid transparent;
+	border-right-color: #aaa;
+	border-left: 0;
+	position: absolute;
+}
+
+.dribbble-follow-button .count u {
+    margin-left: -3px;
+    border-right-color: white;
+}
+
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
+}
+.bars .skills {
+    margin-top: 36px;
+    list-style: none;
+}
+.bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
+}
+.bars li em {
+    font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
+}
+.bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+}
+
+.javascript {
+    width: 70%;
+    -moz-animation: javascript 25s ease;
+    -webkit-animation: javascript 25s ease;
+}
+.node {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+.mongo {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+.unix {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+.mysql {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+
+.java {
+    width: 70%;
+    -moz-animation-direction: initial;
+    -moz-animation: java 25s ease;
+    -webkit-animation: java 25s ease;
+}
+.cplusplus {
+    width: 50%;
+    -moz-animation: cplusplus 25s ease;
+    -webkit-animation: cplusplus 25s ease;
+}
+.css {
+    width: 50%;
+    -moz-animation: css 25s ease;
+    -webkit-animation: css 25s ease;
+}
+.php {
+    width: 50%;
+    -moz-animation: php 25s ease;
+    -webkit-animation: php 25s ease;
+}
+.html5 {
+    width: 70%;
+    -moz-animation: html5 25s ease;
+    -webkit-animation: html5 25s ease;
+
+}
+.jquery {
+    width: 50%;
+    -moz-animation: jquery 25s ease;
+    -webkit-animation: jquery 25s ease;
+}
+
+@-moz-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-moz-keyframes node {
+    0%   { width: 0px;  }
+    100% { width: 65%;  }
+}
+@-moz-keyframes java {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-moz-keyframes cplusplus {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-moz-keyframes css {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+}
+@-moz-keyframes php {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+}
+@-moz-keyframes html5 {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-moz-keyframes jquery {
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
+}
+
+@-moz-keyframes  mysql{
+     0%   { width: 0px;  }
+     100% { width: 60%;  }
+
+ }
+@-moz-keyframes  unix{
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-moz-keyframes  mongo{
+    0%   { width: 0px;  }
+    100% { width: 10%;  }
+
+}
+
+@-webkit-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-webkit-keyframes node {
+    0%   { width: 0px;  }
+    100% { width: 65%;  }
+}
+@-webkit-keyframes java {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-webkit-keyframes cplusplus {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-webkit-keyframes css {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+}
+@-webkit-keyframes php {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+}
+@-webkit-keyframes html5 {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-webkit-keyframes jquery {
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
+}
+@-webkit-keyframes  mysql{
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+
+}
+@-webkit-keyframes  unix{
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-webkit-keyframes  mongo{
+    0%   { width: 0px;  }
+    100% { width: 10%;  }
+
+}
+
+.marginfix{
+    margin-left: 20px;
+    margin-right: 20px;
+}

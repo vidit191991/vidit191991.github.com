@@ -1,43 +1,430 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<script type="text/javascript" src="main-script.js"></script>
-		<meta charset="UTF-8">
-		<title>David Knight</title>
-		<link rel='stylesheet' media='only screen and (max-width: 900px)' href='mainsmall.css' />
-		<link rel='stylesheet' media='only screen and (min-width: 901px)' href='main.css' />
-		</head>
-		<body>
-				<div>
-					<div id="images">
-						<img alt="Picture of David Knight" class="img" src="resources/self.jpg">
-					</div>
-					<h1 id="title">David Knight</h1><br>
-					<div id="description">
-						<h2 class="section">bio</h2>
-						I graduated in August 2015 with an Honours Bachelors of Computer Science, with a Business option.
-						I am looking for an entry-level position in a software development company, where my programming knowledge
-						and strong problem solving skills can be fully utilized.
-						<h2 id='navbar'>links</h2>
-						<table id='navbar-table' class="section">
-						<tr>
-							<td class='navbar-col'>
-								<a href='mailto:d7knight@uwaterloo.ca'>email</a>
-							</td>
-							<td class='navbar-col'>
-								<a href='resources/resume.pdf'>résumé</a>
-							</td>
-							<td class='navbar-col'>
-								<a href='http://www.linkedin.com/in/d7knight'>linkedin</a>
-							</td>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+          
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="A portfolio for David Knight a graduate of the University of Waterloo.">
+    <meta name="keywords" content="Portfolio, David Knight, University of Waterloo">
+    <meta name="author" content="David Knight">
+    
+    <!-- DEVEOPER'S NOTE:
+    This is a free Bootstrap powered HTML template from EvenFly. Feel free to download, modify and use it for yourself or your clients as long there is no money involved.
+    
+    Please don't try to sale it from anywhere; because I want it to be free, forever. If you sale it, That's me who deserves the money, not you :)
+    -->
+
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>David Knight</title><!-- This is what you see on your browser tab-->
+    
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+     
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+        
+    <!-- ===========================
+    ICONS: 
+    =========================== -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- ===========================
+    GOOGLE FONTS
+    =========================== -->    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    
+  <!-- ===========================
+   GOOGLE ANALYTICS (Optional)
+   =========================== -->
+    
+    <!--Replace this line with your analytics code-->
+     
+    <!-- Analytics end-->
+  
+   </head>
+    <body data-spy="scroll">
+        <!-- Preloader -->
+        <div id="preloader">           
+            <div id="status">
+                <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="8s"></div>
+            </div>
+        </div>
+        
+       <header>               
+        <!-- ===========================
+        HERO AREA
+        =========================== -->
+        <div id="hero">           
+            <div class="container herocontent">               
+                <h2 id="hero-title" class="wow fadeInUp" data-wow-duration="2s">David Knight</h2>
+                <h4 id="hero-subtext" class="wow fadeInDown" data-wow-duration="3s">A highly motivated graduate who has just completed a Honours Computer Science degree at the University of Waterloo.
+                    Feel free to learn more about me.</h4>
+            </div>
+
+            <div class="footersocial wow fadeInUp" data-wow-duration="3s"><!-- FOOTER SOCIAL ICONS START -->
+                <ul>
+                    <li><a href="http://www.facebook.com/david.knight.75286100"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="http://linkedin.com/in/d7knight"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="http://twitter.com/d7knight2266001177"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="http://github.com/d7knight"><i class="fa fa-github-square"></i></a></li>
+                   <li><a href="http://www.quora.com/David-Knight-61"><i class="fa fa-fw quora"><strong>Q</strong></i></a></li>
+
+                </ul>
+            </div><!-- FOOTER SOCIAL ICONS END -->
+        </div><!--HERO AREA END-->        
+        
+        <!-- ===========================
+         NAVBAR START
+         =========================== -->
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+               <div class="container">
+                   
+                      <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        
+                           <a class="navbar-brand" href="#hero">
+                            <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
+                            <span class="brandicon icon-grid"></span>
+                            <span class="brandname">Portfolio</span>
+                        </a>
+                    </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                        <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
+                        <li><a href="#interests"><span class="btnicon icon-book-open"></span>Experience and Interests</a></li>
+                        <li><a href="#skills"><span class="btnicon icon-badge"></span>Skills</a></li>
+                        <li><a href="#challenges"><span class="btnicon icon-puzzle"></span>Challenges</a></li>
+                        
+                        <!--don't forget to replace my email address below with yours-->
+                        <li><a href="mailto:d7knight@uwaterloo.ca"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+                        <li class="active"><a href="resources/resume.pdf"><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                        <li class="active"><a href="resources/Transcript.pdf"><span class="btnicon icon-cloud-download"></span>Download Transcript</a></li>
+                    </ul>
+                
+                </div><!--.nav-collapse -->
+            </div>
+        </nav><!--navbar end-->        
+     </header><!--header end-->     
+
+    
+    <!-- ===========================
+    ABOUT SECTION START
+    =========================== -->
+     <div id="about" class="container">
+        
+        <!-- LEFT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6">
+            <div class="row">
+             <h2 class="wow fadeInDown" data-wow-duration="2s">About</h2>
+
+             <h4 class="wow fadeInUp" data-wow-duration="3s">I graduated in August 2015 with an Honours Bachelors of Computer Science with Distinction and with a Business option.
+                 I am looking for an entry-level position in a software development company, where my programming knowledge
+                 and strong problem solving skills can be fully utilised.</h4>
+             
+             <!--<p class="wow fadeInDown" data-wow-duration="3s"></p>-->
+             <!--<p class="wow fadeInDown" data-wow-duration="3s"></p>-->
+             <!-- -->
+
+             <!--<a class="dribbble-follow-button wow bounce" href="http://dribbble.com/d7knight">Follow</a>-->
+
+
+             </div> <!-- ABOUT INFO END -->
+             
+            
+            <div class="myapps row">
+                <h5>Tools and languages that I am skilled with:</h5>
+                
+                <ul><!-- FAVORITE APP ICONS START -->
+                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="logos/android-icon.svg" alt="Android"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="1.5s" src="logos/eclipse.svg" alt="Eclipse"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="2s" src="logos/c++.svg" alt="c++"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="2.5s" src="logos/java.svg" alt="Java"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="3s" src="logos/php.svg" alt="Php"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="3.5s" src="logos/mysql.svg" alt="mySQL"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="logos/html-5.svg" alt="Html5"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="4.5s" src="logos/javascript.svg" alt="Javascript"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="5s" src="logos/css-3.svg" alt="css-3"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="5.5s" src="logos/nodejs-icon.svg" alt="NodeJS"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="6s" src="logos/jasmine.svg" alt="Jasmine"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="6.5s" src="logos/ubuntu.svg" alt="Ubuntu"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="7s" src="logos/github-icon.svg" alt="Github"></li>
+
+                </ul><!-- FAVORITE APP ICONS END -->
+            </div>
+         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        <!--Left part end-->
+         
+         <!-- RIGHT PART OF THE ABOUT SECTION -->
+         <div  class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
+         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->
+     </div><!-- ABOUT SECTION END -->
+        
+    <hr><!-- SECTION SEPARETOR LINE -->
+        
+    <!-- ===========================
+    SERVICE SECTION START
+    =========================== -->
+    <div id="interests" class="container">
+       
+        <!-- SERVICE SECTION HEADING START -->
+        <div class="sectionhead  row wow fadeInUp">
+            <span class="bigicon icon-book-open"></span>
+            <h3>I am highly knowledgable in the following areas:</h3>
+            <hr class="separetor">
+         </div><!--SERVICE SECTION HEADING END-->
+         
+        <!-- SERVICE ITEMS START -->
+        <div class="row">
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img class="iconsize" src="img/website-design-icon.png" alt="">
+                   <h4>Web Design</h4>
+                   <p>In User Interfaces I learned basic web development skills such as HTML, CSS and Javascript.
+                       In my Design Project for CS446 Software Design and Architectures and on my free time I learned
+                       Google Maps and Places API as well as some Backend Coding in PHP+MySQL. Furthermore from my design project
+                       I learned how to create and test RESTFUL APIs. I also have experience in Node JS and some Mongo DB which I picked up quickly
+                       easily while in my Fall 2015 job search. </p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img  class="iconsize" src="img/android-icon.png" alt="">
+                   <h4>Android App Design</h4>
+                   <p>In my free time, I made several functional android apps mostly to help my Father manage his small business.
+                       My Invoicer app helps my father manage is buisness, he uses it to invoice customers/employers.I also created
+                       an Easy Check Measure Android app that allows my father to record measurements on his phone when he is at a job site.
+                       I have experience with Eclipse, Android Studio and other Intellij IDEs. I also have lots of experience with Git and
+                       SVN source control management tools and over 100 commits to various projects on my GitHub Account.  </p>
+                </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+            <img  class="iconsize" src="img/testing.png" alt="">
+            <h4>Software Testing</h4>
+            <p> During Software Testing and Quality Assurances (CS447) , I learned various testing techniques such as Unit Testing and Regression Testing.
+                I learned how to use various testing tools such as JUNIT and Coverity. Furthermore in my Fall 2015 job search I learned how to use Jasmine
+                Testing Framework and Karma Test Runner in a pre-interview challenge.    </div> <!-- ITEM END -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                <img  class="iconsize" src="img/networking-icon.ico" alt="">
+                <h4>Networking and Distributed Systems</h4>
+                <p> During Networking (CS456) and Distributed Systems (CS454) I became familiar with sockets and client-server
+                    architectures using TCP and UDP networking protocols. In networking I successfully implemented Go-back-N and
+                    Selective Repeat sliding window protocols in Java. With a partner in Distributed Systems (CS454), we developed a simple RPC library.
+                    The library was developed in C++ and used TCP/Sockets for communication between the Client, Server and Binder processes.
+                    We worked cohesively as a team to complete the project two weeks earlier than required - including the bonus portion!    </div> <!-- ITEM END -->
+
+
+        </div><!-- SERVICE ITEMS END-->
+    </div><!-- SERVICE SECTION END -->
+        <!-- ===========================
+        SKILLS SECTION START
+        =========================== -->
+        <div id="skills" class="container">
+            <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+                <span class="bigicon icon-badge"></span>
+                <div class="row skill">
+                    <div class="three columns header-col">
+                        <h1><span>Skills</span></h1>
+                    </div
+>
+                    <div class="columns main-col">
 
 
 
-						</tr>
+                        <div class="bars">
+                            <ul class="skills">
+                                <li><span class="bar-expand unix"></span><em>Unix</em></li>
+                                <li><span class="bar-expand java"></span><em>Java</em></li>
+                                <li><span class="bar-expand cplusplus"></span><em>C/C++</em></li>
+                                <li><span class="bar-expand node"></span><em>Node.js</em></li>
+                                <li><span class="bar-expand mongo"></span><em>Mongo db</em></li>
+                                <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                                <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                                <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+                                <li><span class="bar-expand css"></span><em>CSS3</em></li>
+                                <li><span class="bar-expand php"></span><em>PHP</em></li>
+                                <li><span class="bar-expand mysql"></span><em>MySql</em></li>
+                            </ul>
+                        </div><!-- end skill-bars -->
 
-						</table>
-						<a href='/Challenges'>Interview Challenges Completed - Fall 2015 Job Search</a>
-					</div>
-				</div>
-			</body>
+                    </div><!-- SKILLS ITEMS END -->
+              </div>
+        </div><!-- SKILLS SECTION END -->
+    <!-- ===========================
+    PORTFOLIO SECTION START
+    =========================== -->
+    <div id="challenges" class="container">
+        <div  class="sectionhead wow bounceInUp" data-wow-duration="2s">
+          <span class="bigicon icon-puzzle"></span>
+            <h1><span>Challenges</span></h1>
+            <ol>
+                <li>Here are all the Interview Pre-Screening Challenges that I completed in my Fall 2015 Job-Search so far...</li>
+                <li> <a class="marginfix" href="https://github.com/d7knight/CalculatorService/#readme">Sept 3, 2015 - Coding Challenge - NodeJS - Karma - Jasmine</a>
+                    <a class="marginfix" href="https://github.com/d7knight/CalculatorService/blob/master/Java%20Script%20Assignment.pdf">Instructions</a></li>
+                <li> <a class="marginfix" href="https://github.com/d7knight/Javascript-Challenge/#readme">Sept 4, 2015 - Coding Challenge - NodeJS - lodash - bluebird</a>
+                    <a class="marginfix" href="http://sortable.com/challenge/">Instructions</a></li>
+            </ol>
+
+        </div><!-- PORTFOLIO ITEMS END -->
+        
+        </div><!-- PORTFOLIO SECTION END -->
+
+    <!--&lt;!&ndash; ===========================-->
+    <!--TESTIMONIAL SECTION START-->
+    <!--=========================== &ndash;&gt;-->
+    <!--<div id="testimonials" class="container">-->
+        <!--<div class="sectionhead wow bounceInUp" data-wow-duration="2s">-->
+           <!--<span class="bigicon icon-bubbles"></span>-->
+           <!--<h3>This is what I love to listen</h3>-->
+           <!--<h4>Expedita nobis natus doloribus blanditiis quos, atque voluptatem, veritatis soluta eveniet ea!</h4>-->
+           <!--<hr class="separetor">            -->
+        <!--</div>&lt;!&ndash; TESTIMONIAL SECTIONHEAD END &ndash;&gt;-->
+        <!-- -->
+        <!--&lt;!&ndash; TESTIMONIAL ITEMS START &ndash;&gt;-->
+        <!--<div class="row">-->
+            <!--&lt;!&ndash; 1ST TESTIMONIAL ITEM &ndash;&gt;-->
+            <!--<div class="col-md-6 wow bounceIn" data-wow-duration="2s">-->
+                <!--<div class="clientsphoto">-->
+                    <!--<img src="img/dan.jpg" alt="Dan">-->
+                <!--</div>-->
+                <!-- -->
+                <!--<div class="quote">-->
+                    <!--<blockquote>-->
+                       <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        -->
+                    <!--</blockquote>-->
+                    <!--<h5>Dan Cederholm</h5>-->
+                    <!--<p>Co-Founder, Dribbble</p>-->
+                <!--</div>                -->
+            <!--</div>&lt;!&ndash; 1ST TESTIMONIAL ITEM END &ndash;&gt;-->
+            <!-- -->
+            <!--&lt;!&ndash; 2ND TESTIMONIAL ITEM &ndash;&gt;-->
+            <!--<div class="col-md-6 wow bounceIn" data-wow-duration="3s">-->
+                <!--<div class="clientsphoto">-->
+                    <!--<img src="img/bill.jpg" alt="Bill">-->
+                <!--</div>-->
+                <!-- -->
+                <!--<div class="quote">-->
+                    <!--<blockquote>-->
+                       <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et. lorem</p>                        -->
+                    <!--</blockquote>-->
+                    <!--<h5>Bill S Kenney</h5>-->
+                    <!--<p>Art Director at Focus Lab LLC.</p>-->
+                <!--</div>                -->
+            <!--</div>&lt;!&ndash; 2ND TESTIMONIAL ITEM END &ndash;&gt;-->
+            <!-- -->
+            <!--&lt;!&ndash; 3RD TESTIMONIAL ITEM &ndash;&gt;-->
+            <!--<div class="col-md-6 wow bounceIn" data-wow-duration="3s">-->
+                <!--<div class="clientsphoto">-->
+                    <!--<img src="img/eric.png" alt="Eric">-->
+                <!--</div>-->
+                <!-- -->
+                <!--<div class="quote">-->
+                    <!--<blockquote>-->
+                       <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        -->
+                    <!--</blockquote>-->
+                    <!--<h5>Eric Hoffman</h5>-->
+                    <!--<p>Principal Designer, JellyJar</p>-->
+                <!--</div>                -->
+            <!--</div>&lt;!&ndash; 3RD TESTIMONIAL ITEM END &ndash;&gt;-->
+            <!-- -->
+            <!--&lt;!&ndash; 4TH TESTIMONIAL ITEM &ndash;&gt;-->
+            <!--<div class="col-md-6 wow bounceIn" data-wow-duration="2s">-->
+                <!--<div class="clientsphoto">-->
+                    <!--<img src="img/ramil.jpg" alt="Ramil">-->
+                <!--</div>-->
+                <!-- -->
+                <!--<div class="quote">-->
+                    <!--<blockquote>-->
+                       <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        -->
+                    <!--</blockquote>-->
+                    <!--<h5>Ramil Derogongun</h5>-->
+                    <!--<p>Visual Designer, Bluroon</p>-->
+                <!--</div>                -->
+            <!--</div>&lt;!&ndash; 4TH TESTIMONIAL ITEM END &ndash;&gt;-->
+        <!--</div>        -->
+    <!--</div>&lt;!&ndash; TESTIMONIAL SECTION END &ndash;&gt;-->
+       
+    <!-- ===========================
+    FOOTER START
+    =========================== -->    
+    <footer>
+        <div class="container">
+             
+            <div class="footerlinks"><!-- FOOTER LINKS START -->            
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#interests">Experience and Interests</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#challenges">Challenges</a></li>
+                    <!--<li><a href="#testimonials">Testimonials</a></li>-->
+
+                    <!--replace the email address below with your email address-->
+                    <li><a href="mailto:d7knight@uwaterloo.ca">Contact</a></li>
+                </ul>
+            </div><!-- FOOTER LINKS END -->
+
+            <footer class="site-footer copyright">
+                <li>© 2015 David Knight</li>
+                <li>Hosted on <a rel="nofollow" href="http://www.github.com/">Github</a></li>
+</footer>
+
+
+            <!--<div class="footersocial wow fadeInUp" data-wow-duration="3s">&lt;!&ndash; FOOTER SOCIAL ICONS START &ndash;&gt;-->
+                <!--<ul>-->
+                    <!--<li><a href="https://www.facebook.com/david.knight.75286100"><span class="icon-social-facebook"></span></a></li>-->
+                    <!--<li><a href="http://twitter.com/d7knight"><span class="icon-social-twitter"></span></a></li>-->
+                    <!--<li><a href="http://github.com/d7knight"><span class="icon-social-github"></span></a></li>-->
+                    <!--<li><a href="http://bitbucket.com/d7knight"><span class="icon-social-bitbucket"></span></a></li>-->
+                    <!--&lt;!&ndash;<li><a href="#"><span class="icon-social-youtube"></span></a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="http://dribbble.com/d7knight"><span class="icon-social-dribbble"></span></a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="#"><span class="icon-social-tumblr"></span></a></li>&ndash;&gt;-->
+                 <!--</ul>-->
+             <!--</div>&lt;!&ndash; FOOTER SOCIAL ICONS END &ndash;&gt;-->
+         </div>
+     </footer><!-- FOOTER END -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
+    <!--Other necessary scripts-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+    <script src="js/drifolio.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>    
+  </body>
 </html>
