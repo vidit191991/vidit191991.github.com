@@ -68,9 +68,9 @@ hr.separetor{
 
 
 /*================================
-HERO AREA
+HEADER AREA
 ================================*/
-#hero{
+#header {
     color: #01060a;
     text-align: center;
 
@@ -78,7 +78,7 @@ HERO AREA
     overflow: hidden;
 
 }
-#hero-title{
+#header-title {
     font-size: 90px;
     font-weight: bolder;
     color: #01060a;
@@ -87,21 +87,28 @@ HERO AREA
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 
 }
-#hero-subtext{
+#header-subtext {
     font-size: 20px;
 
 }
 
-.herocontent{
+.headercontent {
     padding-top: 100px;
     width: 100%;
     max-width: 900px;
 }
-.heroshot{
+.headershot {
     margin-top: 20px;
     width: 100%;
     max-width: 1200px;
+}
 
+.haeadersocial {margin-top: 30px;}
+
+.haeadersocial li{
+    display:inline;
+    padding: 0 15px;
+    font-size: 2em;
 }
 
 /*================================

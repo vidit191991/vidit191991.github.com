@@ -1,7 +1,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {    
     /*HREO AREA */
-    #hero{max-height: 660px;}    
+    #header {max-height: 660px;}
     
     /* FEATURED CLIENTS SECTION*/
     #clients img{height: 50px;}
@@ -11,7 +11,7 @@
 @media only screen and (max-width : 980px) {
     
     /*HREO AREA */
-    #hero{height: 540px;}
+    #header {height: 540px;}
     
     /*ABOUT SECTION*/
     #about{padding-top: 40px;}
@@ -54,8 +54,8 @@
 
     
     /*Hero area*/
-    #hero{height: 400px;}    
-    .herocontent{padding-top: 30px;}
+    #header {height: 400px;}
+    .headercontent {padding-top: 30px;}
     
     /*About section*/
     #about{text-align: center;}
@@ -69,15 +69,15 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #hero{height: 320px;}    
+    #header {height: 320px;}
     #clients {display: none;}
-    .footersocial li{font-size: 1.5em}
+    .haeadersocial li{font-size: 1.5em}
 }
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
-    #hero{height: 480px;}
-    .herocontent{padding-top: 100px; padding-bottom: 30px;}
+    #header {height: 480px;}
+    .headercontent {padding-top: 100px; padding-bottom: 30px;}
 
 }
 
