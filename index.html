@@ -27,10 +27,6 @@
     FAVICONS
     =========================== -->
     <link rel="icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png"/>
 
     <!-- ===========================
     STYLESHEETS
@@ -85,7 +81,8 @@
     <div id="header">
         <div class="container headercontent">
             <h2 id="header-title" class="wow fadeInUp" data-wow-duration="2s">David Knight</h2>
-            <h4 id="header-subtext" class="wow fadeInDown" data-wow-duration="3s">A highly motivated graduate who has just
+            <h4 id="header-subtext" class="wow fadeInDown" data-wow-duration="3s">A highly motivated graduate who has
+                just
                 completed a Honours Computer Science degree at the University of Waterloo.
                 Feel free to learn more about me.</h4>
         </div>
@@ -120,7 +117,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="#hero">
+                <a class="navbar-brand" href="#header">
                     <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
                     <span class="brandicon icon-grid"></span>
                     <span class="brandname">Portfolio</span>
@@ -317,8 +314,7 @@ SKILLS SECTION START
         <div class="row skill">
             <div class="three columns header-col">
                 <h1><span>Skills</span></h1>
-            </div
-                    >
+            </div>
             <div class="columns main-col">
 
 
@@ -348,29 +344,40 @@ SKILLS SECTION START
     PORTFOLIO SECTION START
     =========================== -->
     <div id="challenges" class="container">
-        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+        <li class="sectionhead wow bounceInUp" data-wow-duration="2s">
             <span class="bigicon icon-puzzle"></span>
 
             <h1><span>Challenges</span></h1>
-            <ol>
-                <li>Here are all the Interview Pre-Screening Challenges that I completed in my Fall 2015 Job-Search so
-                    far...
-                </li>
-                <li><a class="marginfix" href="https://github.com/d7knight/CalculatorService/#readme">Sept 3, 2015 -
-                    Coding Challenge - NodeJS - Karma - Jasmine</a>
-                    <a class="marginfix"
-                       href="https://github.com/d7knight/CalculatorService/blob/master/Java%20Script%20Assignment.pdf">Instructions</a>
-                </li>
-                <li><a class="marginfix" href="https://github.com/d7knight/Javascript-Challenge/#readme">Sept 4, 2015 -
-                    Coding Challenge - NodeJS - lodash - bluebird</a>
-                    <a class="marginfix" href="http://sortable.com/challenge/">Instructions</a></li>
-            </ol>
+        Here are all the Interview Pre-Screening Challenges that I completed in my Fall 2015 Job-Search so
+            far...
+        </li>
 
-        </div>
-        <!-- PORTFOLIO ITEMS END -->
+        <ul>    <li class="challenge">
+                    <a class="repo" href="https://github.com/d7knight/CalculatorService/#readme">Sept 3, 2015 -
+                        Coding Challenge - NodeJS - Karma - Jasmine</a>
+
+                        <a class="instruction" href="https://github.com/d7knight/CalculatorService/blob/master/Java%20Script%20Assignment.pdf">Instructions</a>
+
+                </li>
+
+
+
+            <li class="challenge">
+
+
+                    <a class="repo" href="https://github.com/d7knight/Javascript-Challenge/#readme">Sept 4, 2015 -
+                        Coding Challenge - NodeJS - lodash - bluebird</a>
+                    <a class="instruction" href="http://sortable.com/challenge/">Instructions</a>
+
+
+            </li>
+        </ul>
+
+
+
 
     </div>
-    <!-- PORTFOLIO SECTION END -->
+    <!-- PORTFOLIO ITEMS END -->
 
     <!--&lt;!&ndash; ===========================-->
     <!--TESTIMONIAL SECTION START-->
@@ -455,7 +462,7 @@ SKILLS SECTION START
 
             <div class="footerlinks"><!-- FOOTER LINKS START -->
                 <ul>
-                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#interests">Experience and Interests</a></li>
                     <li><a href="#skills">Skills</a></li>
