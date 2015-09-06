@@ -175,7 +175,9 @@ PORTFOLIO SECTION
 #challenges {
     text-align: center;
 }
-
+#challenges ul{
+    line-height: 100px;
+}
 #challenges .challenge .repo{
     position: relative;
     right: 5%;
