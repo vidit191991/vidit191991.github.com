@@ -173,12 +173,12 @@ ABOUT SECTION
 PORTFOLIO SECTION
 ================================*/
 
-#challenges li .challengesIntro{
+.challengesIntro{
   text-align: left;
     
     
 }
-#challenges li .challengesList{
+.challengesList{
   text-align: left;
     line-height: 100px;
     list-style-type:disc
@@ -187,12 +187,12 @@ PORTFOLIO SECTION
 #challenges li ul{
 margin: 0 0 10px;
 }
-#challenges li ul .challenge .repo{
+.repo{
   text-align: left;
     position: relative;
     right: 5%;
 }
-#challenges li ul .challenge .instruction{
+.instruction{
   text-align: left;
     position: relative;
     left: 5%;
