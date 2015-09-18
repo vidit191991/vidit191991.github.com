@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af2fa70d-fd53-4d5d-a27c-d04a3ac839dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="d7knight.github.com.iws" />
@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.18604651">
+            <state vertical-scroll-proportion="0.9655172">
               <caret line="433" column="116" selection-start-line="433" selection-start-column="116" selection-end-line="433" selection-end-column="116" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="158.3871">
-              <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.8902439">
+              <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/view.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -622,7 +622,7 @@
       <workItem from="1441663153446" duration="1027000" />
       <workItem from="1442100674128" duration="1364000" />
       <workItem from="1442198322122" duration="2140000" />
-      <workItem from="1442586467331" duration="16804000" />
+      <workItem from="1442586467331" duration="17896000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bug">
       <created>1441570911090</created>
@@ -708,11 +708,17 @@
       <option name="project" value="LOCAL" />
       <updated>1442604235765</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed naming of challenges">
+      <created>1442604493305</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1442604493305</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36939000" />
+    <option name="totallyTimeSpent" value="38031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -766,7 +772,8 @@
     <MESSAGE value="using bootstrap grid layout for challenges and skills now" />
     <MESSAGE value="fixed photo positioning for phone" />
     <MESSAGE value="fixed skill bars, now responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed skill bars, now responsive" />
+    <MESSAGE value="fixed naming of challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed naming of challenges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1081,18 +1088,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="158.3871">
-          <caret line="154" column="39" selection-start-line="154" selection-start-column="39" selection-end-line="154" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.9655172">
+          <caret line="433" column="116" selection-start-line="433" selection-start-column="116" selection-end-line="433" selection-end-column="116" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18604651">
-          <caret line="433" column="116" selection-start-line="433" selection-start-column="116" selection-end-line="433" selection-end-column="116" />
+        <state vertical-scroll-proportion="0.8902439">
+          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
           <folding />
         </state>
       </provider>
