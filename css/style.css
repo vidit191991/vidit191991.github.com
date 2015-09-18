@@ -172,20 +172,21 @@ ABOUT SECTION
 /*================================
 PORTFOLIO SECTION
 ================================*/
-#challenges {
-    text-align: left;
-}
 
-#challenges ul{
+
+#challenges .challengesList{
+  text-align: left;
     line-height: 100px;
     list-style-type:disc
     
 }
 #challenges .challenge .repo{
+  text-align: left;
     position: relative;
     right: 5%;
 }
 #challenges .challenge .instruction{
+  text-align: left;
     position: relative;
     left: 5%;
 }
