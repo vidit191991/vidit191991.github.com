@@ -184,15 +184,15 @@ PORTFOLIO SECTION
     list-style-type:disc
     
 }
-#challenges li .challenge{
+#challenges li ul{
 margin: 0 0 10px;
 }
-#challenges li .challenge .repo{
+#challenges li ul .challenge .repo{
   text-align: left;
     position: relative;
     right: 5%;
 }
-#challenges li .challenge .instruction{
+#challenges li ul .challenge .instruction{
   text-align: left;
     position: relative;
     left: 5%;
