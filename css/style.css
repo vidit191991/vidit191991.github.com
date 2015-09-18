@@ -184,6 +184,9 @@ PORTFOLIO SECTION
     list-style-type:disc
     
 }
+#challenges li .challenge{
+margin: 0 0 10px;
+}
 #challenges li .challenge .repo{
   text-align: left;
     position: relative;
