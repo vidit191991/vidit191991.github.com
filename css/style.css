@@ -149,13 +149,13 @@ ABOUT SECTION
     width: 30px;
 }
 #about .myphoto {
-    display: block;
+    display:block;
+    margin:auto;
     background-position: center center;
     position: relative;
     width: 240px;
     height: 300px;
-    margin-left: 20%;
-    margin-right: auto;
+
     background-size: cover;
     border-radius: 20px;
     background-image: url("../img/user.jpg");
