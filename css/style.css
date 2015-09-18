@@ -150,7 +150,8 @@ ABOUT SECTION
 }
 #about .myphoto {
     display:block;
-    margin:auto;
+    margin-left: 33%;
+    margin-right: 33%;
     background-position: center center;
     position: relative;
     width: 240px;
@@ -258,6 +259,7 @@ footer{
 #skills  .skill {
     position: relative;
     margin-bottom: 60px;
+    margin-right: 5%;
     background: #ccc;
     height: 42px;
     border-radius: 3px;
