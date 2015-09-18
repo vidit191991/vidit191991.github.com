@@ -250,24 +250,20 @@ footer{
 /*	Skill Bars
 /*----------------------------------------------*/
 
-.bars {
-    width: 100%;
-    float: left;
-    padding: 0;
-    text-align: left;
-}
-.bars .skills {
+
+#skills .skillstable {
     margin-top: 36px;
-    list-style: none;
+
 }
-.bars li {
+#skills  .skill {
     position: relative;
     margin-bottom: 60px;
     background: #ccc;
     height: 42px;
     border-radius: 3px;
+    padding-bottom: 0px;
 }
-.bars li em {
+#skills  .stitle {
     font: 15px 'opensans-bold', sans-serif;
     color: #313131;
     text-transform: uppercase;
@@ -276,7 +272,7 @@ footer{
     position: relative;
     top: -36px;
 }
-.bar-expand {
+#skills .bar-expand {
     position: absolute;
     left: 0;
     top: 0;
