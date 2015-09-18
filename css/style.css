@@ -178,24 +178,23 @@ PORTFOLIO SECTION
     
     
 }
-.challengesList{
+.challengesTable{
+    width: 100%;
 
-    line-height: 100px;
-    list-style-type:disc
-    
+
 }
+
 .challenge{
-  text-align: left;
+    text-align: left;
+    width: 100%;
 }
 .repo{
- 
-    position: relative;
-    right: 5%;
+
+    text-align: left;
 }
 .instruction{
+    text-align: left;
 
-    position: relative;
-    left: 5%;
 }
 
 /*================================
