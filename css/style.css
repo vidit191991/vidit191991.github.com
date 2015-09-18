@@ -175,9 +175,7 @@ PORTFOLIO SECTION
 #challenges {
     text-align: left;
 }
-#challenges .challengesIntro {
-    text-align: left;
-}
+
 #challenges ul{
     line-height: 100px;
     list-style-type:disc
