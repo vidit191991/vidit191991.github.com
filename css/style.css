@@ -179,21 +179,21 @@ PORTFOLIO SECTION
     
 }
 .challengesList{
-  text-align: left;
+
     line-height: 100px;
     list-style-type:disc
     
 }
-#challenges li ul{
-margin: 0 0 10px;
+.challenge{
+  text-align: left;
 }
 .repo{
-  text-align: left;
+ 
     position: relative;
     right: 5%;
 }
 .instruction{
-  text-align: left;
+
     position: relative;
     left: 5%;
 }
