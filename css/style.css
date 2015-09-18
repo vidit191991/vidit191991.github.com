@@ -173,13 +173,15 @@ ABOUT SECTION
 PORTFOLIO SECTION
 ================================*/
 #challenges {
-    text-align: center;
+    text-align: left;
 }
 #challenges .challengesIntro {
     text-align: left;
 }
 #challenges ul{
     line-height: 100px;
+    list-style-type:disc
+    
 }
 #challenges .challenge .repo{
     position: relative;
