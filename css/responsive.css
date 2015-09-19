@@ -69,7 +69,7 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #header {height: 320px;}
+    #header {height: 400px;}
     #clients {display: none;}
     .haeadersocial li{font-size: 1.5em}
 }
