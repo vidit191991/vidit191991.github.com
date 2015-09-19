@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af2fa70d-fd53-4d5d-a27c-d04a3ac839dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Transcript.pdf" afterPath="$PROJECT_DIR$/resources/Transcript.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="d7knight.github.com.iws" />
@@ -224,6 +224,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
       <recent name="C:\Users\Mom_2\Documents\d7knight.github.com" />
     </key>
   </component>
@@ -622,7 +623,7 @@
       <workItem from="1441663153446" duration="1027000" />
       <workItem from="1442100674128" duration="1364000" />
       <workItem from="1442198322122" duration="2140000" />
-      <workItem from="1442586467331" duration="17896000" />
+      <workItem from="1442586467331" duration="18733000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bug">
       <created>1441570911090</created>
@@ -714,15 +715,27 @@
       <option name="project" value="LOCAL" />
       <updated>1442604493305</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="set photo margins to auto">
+      <created>1442606064413</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1442606064413</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updated transcript">
+      <created>1442639127227</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1442639127227</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38031000" />
+    <option name="totallyTimeSpent" value="38868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -741,7 +754,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2501992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2501992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -773,7 +786,9 @@
     <MESSAGE value="fixed photo positioning for phone" />
     <MESSAGE value="fixed skill bars, now responsive" />
     <MESSAGE value="fixed naming of challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed naming of challenges" />
+    <MESSAGE value="set photo margins to auto" />
+    <MESSAGE value="updated transcript" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated transcript" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
